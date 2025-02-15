@@ -11,7 +11,7 @@ binary_path = "/home/vboxuser/gem5/vector_addition"
 
 Afterwards, run GEM5 with this script as usual with
 ```
-build/X86/gem5.opt L1Experiment.py
+ReplaceWithPathtoGEM5/build/X86/gem5.opt ReplaceWithPathToScript/L1Experiment.py
 ```
 
 ## Why?
