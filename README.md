@@ -2,13 +2,17 @@
 
 ## Setup:
 
-You will need to install GEM5 on a linux system to get this working.
+You will need to build GEM5 on a linux system to get this working.
 
 Compile the Vector Addition Script into an exceutable, and then update the following line in the L1Experiment.py script.
 ```
 binary_path = "/home/vboxuser/gem5/vector_addition"
 ```
-Afterwards, run GEM5 with this script as usual.
+
+Afterwards, run GEM5 with this script as usual with
+```
+build/X86/gem5.opt L1Experiment.py
+```
 
 ## Why?
 
@@ -17,6 +21,8 @@ I was in the famous Yale Patt's ECE 460N Lecture and as he was talking about tra
 I remember speaking to an AMD Research Engineer about how they were looking for someone with GEM5 Experience.
 
 With this in mind, I figured it would be interesting to learn how to use GEM5 to test out what I had learned in computer architecture with as close to a real world situation as I could reasonably get.
+
+I may also update this repository with additional CPU Configurations and tests for fun.
 
 ## What you can do with GEM5 (and by messing around with this script)
 
