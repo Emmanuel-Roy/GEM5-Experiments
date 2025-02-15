@@ -4,9 +4,9 @@
 
 You will need to build GEM5 on a linux system to get this working.
 
-Compile the Vector Addition Script into an exceutable, and then update the following line in the L1Experiment.py script.
+Compile the Vector Addition Script into an exceutable, and then update the binary_path variable in the following line in the L1Experiment.py script.
 ```
-binary_path = "/home/vboxuser/gem5/vector_addition"
+binary_path = "ReplaceWithPathtoExceutable/vector_addition"
 ```
 
 Afterwards, run GEM5 with this script as usual with
